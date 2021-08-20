@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/**********************************Landing Page********************************/
+/*styling for the banner*/
+
+.banner {
+    background-color: red;
+    height: 400px;
+    background:url(hbd.jpg) no-repeat;
+    background-size: cover;
+}
+
+/* Row stylings*/
+
+.mymusic {
+    background:url(lexe2.jpg) no-repeat;
+    background-size:cover;
+    background-color: green;
+    height: 300px;
+}
+
+.aboutme {
+    background:url(killua.jpg) no-repeat;
+    background-size:cover;
+    background-color: pink;
+    height: 400px;
+
+}
+
+.contacts {
+    background:url(heart.jpg) no-repeat;
+    background-size:cover;
+    background-color: green;
+    height: 300px;
+}
+
+/*Row titles*/
+
+.bannertitle{
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 100px;
+    font-family:'Yomogi', cursive;
+    opacity: 80%;
+}
+
+.rowtitle2 {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    text-decoration: none;
+    opacity:90%; 
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+   
+}
+
+.special{
+     animation-name: changes;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    border-radius: 30px;
+    padding:5px;
+    font-family: 'Indie Flower', cursive;
+}
+
+@keyframes changes{
+    from{background-color: rgb(52, 52, 173);}
+    to{background-color: burlywood;}
+}
+
+.rowtitle2:link {
+    text-decoration:none;
+    opacity:80%;
+}
+
+.rowtitle2:hover {
+    color: lightblue;
+    opacity:80%;
+}
+
+.rowtitle3 {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    opacity: 80%;
+}
+
+.rowtitle3 {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    text-decoration: none;
+    opacity:90%; 
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.rowtitle3:link {
+    text-decoration:none;
+    opacity:80%;
+}
+
+.rowtitle3:hover {
+    color: lightblue;
+    opacity:80%;
+}
+
+.rowtitle4 {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    text-decoration: none;
+    opacity:90%; 
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.rowtitle4:link {
+    text-decoration:none;
+    opacity:80%;
+}
+
+.rowtitle4:hover {
+    color: lightblue;
+    opacity:80%;
+}
+
+/*Row Descriptions*/
+
+.rowdesc1 {
+    color: white;
+    font-size: 30px;
+}
+
+.rowdesc2 {
+    color: white;
+    font-size: 3em;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+}
+
+.rowdesc3 {
+    color: white;
+    font-size: 30px;
+}
+
+/*footer*/
+
+.footer {
+    background-color: brown;
+    height: 50px;
+}
